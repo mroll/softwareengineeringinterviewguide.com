@@ -1,0 +1,491 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="tufte.css"/>
+  </head>
+
+  <body>
+    <article>
+
+      <section>
+        <h1 style="width: 55%;">A Comprehensive Guide to Software Engineering Interviews</h1>
+
+        <p>I used to think that one of the things college would teach me is how to get a job in the tech industry.&nbsp;</p>
+
+        <p>It didn't.</p>
+
+        <p>Until I interviewed at a tech giant for the first time, I didn't even know that there was a specific interview process, much less how I could prepare for it.&nbsp;</p>
+
+        <p>Now that I live in Silicon Valley and work for a tech giant, I realize that there are two main things that people talk about here: that the <a href="https://news.ycombinator.com/item?id=23848039" data-type="URL" data-id="https://news.ycombinator.com/item?id=23848039">engineering</a> <a href="https://github.com/poteto/hiring-without-whiteboards" data-type="URL" data-id="https://github.com/poteto/hiring-without-whiteboards">interview process</a> <a href="https://twitter.com/mxcl/status/608682016205344768?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E608682016205344768%7Ctwgr%5E%7Ctwcon%5Es1_c10&amp;ref_url=https%3A%2F%2Fpublish.twitter.com%2F%3Fquery%3Dhttps3A2F2Ftwitter.com2Fmxcl2Fstatus2F608682016205344768widget%3DTweet" data-type="URL" data-id="https://twitter.com/mxcl/status/608682016205344768?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E608682016205344768%7Ctwgr%5E%7Ctwcon%5Es1_c10&amp;ref_url=https%3A%2F%2Fpublish.twitter.com%2F%3Fquery%3Dhttps3A2F2Ftwitter.com2Fmxcl2Fstatus2F608682016205344768widget%3DTweet">is broken</a>, and everyone should just start their own companies instead for working for someone else.&nbsp;</p>
+
+        <p>In time, the companies working on <a href="https://twitter.com/LambdaSchool?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" data-type="URL" data-id="https://twitter.com/LambdaSchool?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">fixing the interview process</a> might well succeed, or in the end it won’t matter anyway because by then we’ll all be <a href="https://twitter.com/IndieHackers" data-type="URL" data-id="https://twitter.com/IndieHackers">indie hackers</a>. But for those of us who need jobs today, the reality is that the current process is what we have to work with. <strong>And if we want to</strong> <strong>work for the best companies out there, we need to know what the interview process is going to look like and how to prepare for it.</strong>&nbsp;</p>
+
+        <p>So with that in mind, here is the most comprehensive guide to the software engineering interview process you'll find on the internet today; one that I wish someone had written for me when I was in college. In addition to doing everything we talk about here, you’re also going to need luck. But since neither you nor I have any control over that, let's focus on making sure that when the opportunity presents itself, you’ll be ready for it.&nbsp;&nbsp;</p>
+      </section>
+
+      <section>
+        <h2>Part 0: What is your goal?</h2>
+        <h3>What kind of job do you want?</h3>
+
+        <p>The first thing you need to think about is what kind of job you want. There are many flavors of software engineer - full-stack engineer, distributed systems engineer, machine learning engineer, backend engineer, frontend engineer, mobile engineer, security engineer, dev ops engineer and more.</p>
+
+        <p>If you're completely new to searching for a role:</p>
+
+        <ul><li>Read about the differences between the types of software engineers.</li></ul>
+
+        <ul><li>Talk to engineers in the industry who are working in the areas you'd like to learn more about. You can get in touch with them through LinkedIn or a mentorship program (like <a href="https://www.builtbygirls.com/" data-type="URL" data-id="https://www.builtbygirls.com/">Built By Girls</a>).</li></ul>
+
+        <ul><li>Read job descriptions of similar roles on multiple companies' websites. The goal here is to get a sense of the basic qualifications required for a particular role.</li></ul>
+
+        <p><strong>It is harder to get into some areas of engineering as an entry level programmer.</strong> For example, cybersecurity, machine learning, dev ops etc. These roles typically require higher qualifications, more specialization, prior experience or certifications. However, most companies will let you switch roles internally so it's ok to get your start with your current skillset and slowly transition into the role you want over time.</p>
+
+        <h3>What type of company do you want to work for?</h3>
+        <p>The next thing to think about is what kind of company you want to work for. A good way to categorize your preferences is by <strong>company size</strong> (large, mid-size, or small) and <strong>industry</strong> (consumer tech, B2B, biotech, energy, finance, government, etc.).</p>
+
+        <p>Here are some factors to consider:</p>
+
+        <ul><li>Engineers are treated differently in different industries based on the value their work generates for the core products in that industry. If a company's main product is the software they sell, then the quality of the engineering team has a direct impact on revenue, which means that engineers are a more valuable part of the employee base.</li></ul>
+
+        <ul><li>Joining a startup or a small company usually means that you'll get to do a little bit of everything, especially at the early stages of the company. This type of company is a great way to get your hands dirty fast and get a lot of responsibility early on. However that comes with less established best practices, more on-call hours and less-than-market-rate cash compensation.</li></ul>
+
+        <ul><li>Things move comparatively slower at larger companies and there's more internal politics and hierarchy, but the hours and pay are better. You also get to work on systems at scale, and get a lot of time to nurture your engineering skills.</li></ul>
+
+        <p>The type of company you choose depends on what you're looking for in your career right now, and which company's culture you like when you interview with them. <strong>Remember that this choice is important but not permanent</strong> and you can decide to go work somewhere else in the future if that's what makes sense at the time. The cost of switching between companies is very low, and between industries is slightly higher but still very doable.</p>
+
+        <h3>What is your timeline?</h3>
+        <p>Here are a few examples of how you can structure your schedule depending on how long you have for the job search process.</p>
+
+        <h4><strong>A few months:</strong></h4>
+        <ol><li>Build an online presence: 2-3 weeks</li><li>Apply for jobs + Study for interviews: 3-4 weeks</li><li>Practice Interviews: 1-2 weeks</li><li>Real Interviews: 2-4 weeks</li><li>Salary Negotiation: 1 week</li></ol>
+
+        <h4><strong>A year:</strong></h4>
+
+        <ol><li>Work on side projects + Build an online presence: 6 months</li><li>Apply for jobs + Study for interviews: 3 months</li><li>Practice Interviews: 2-4 weeks</li><li>Real Interviews: 3-6 weeks</li><li>Salary Negotiation: 1-2 weeks</li></ol>
+
+        <h4><strong>A month:</strong></h4>
+
+        <p>Your goal of getting a good job is 100% achievable even if your timeline is a month or less. Just do everything simultaneously. Don't wait for one phase to be over before you start the next. It's going to be a lot harder and you're going to have to put in a lot more hours everyday, but you can do it.</p>
+      </section>
+
+      <section>
+        <h2>Part 1: Build an Online Presence</h2>
+        <p>Once you've thought about where you'd like to work, it's time to create (or update) your portfolio, resume and profiles on LinkedIn, job boards and other professional networks.</p>
+
+        <p><strong>The goal here is to show your future employers that you can already do the job they're looking to hire for.</strong> Internships, side projects, open source projects, hackathons or prior work experience are all good ways to showcase your skills. Classes or class projects are rarely a good enough signal by themselves.</p>
+
+        <p>Spend the time to make your online presence look good - this is a very important step. This is the way you market yourself and the image you're presenting is one you should be proud of.</p>
+
+        <h3>Resume</h3>
+        <p>Your resume is a one page summary of your professional persona.</p>
+
+        <h4><strong>Content:</strong></h4>
+        <ul><li>At a minimum, your resume should include your education, prior work experience and side projects.</li></ul>
+
+        <ul><li>List your experience chronologically, starting with the most recent.</li></ul>
+
+        <ul><li>There are two important things to keep in mind when describing your past work: clearly communicate <em>what</em> you worked on, and the <em>measurable outcomes</em> that happened as a result of your work.</li></ul>
+
+        <h4><strong>Design:</strong></h4>
+
+        <ul><li>Your resume should be no longer than one page, with at least a one inch margin on all sides and a choice of text size and font that make it easy to read.</li></ul>
+
+        <ul><li><a href="https://www.latex-project.org/">LaTeX</a> is a high-quality typesetting tool that you can use to create your resume. It gives you a lot more control over each element on the page and the outcome looks much better than if you use a text editor.</li></ul>
+
+        <h3>Portfolio</h3>
+
+        <p>Your professional portfolio is a website that houses a collection of all your publicly available prior work. This could be links to other websites you've built or descriptions of projects you've worked on, highlighting the languages, tools and technologies you used to build the project.</p>
+
+        <p>It's also helpful to include links to:</p>
+
+        <ul><li>Your LinkedIn profile</li><li>Your resume as an easily downloadable pdf</li><li>Your email address - should be the same as the one on your resume</li><li>Your Github profile</li><li>Any open source contributions</li></ul>
+
+        <p>Here are some free hosting options for online projects:</p>
+
+        <ul><li><a href="https://www.netlify.com/">Netlify</a></li><li><a href="https://pages.github.com/">Github Pages</a></li></ul>
+
+        <p>And free themes and images for portfolio website design:</p>
+
+        <ul><li>Themes - <a href="https://html5up.net/">HTML5UP</a></li><li>Images - <a href="https://unsplash.com/">Unsplash</a></li></ul>
+
+        <h3>Job Boards and Professional Networks</h3>
+        <p>Now that you've put in all this work into building an online presence, advertise it. This is how people are going to find you, and you need them to be able to find you before they can start the interview process with you.</p>
+
+        <p>Create profiles on:</p>
+
+        <ul><li><a href="https://www.linkedin.com/">LinkedIn</a></li><li><a href="https://angel.co/">AngelList</a></li><li><a href="https://elpha.com/">Elpha</a></li><li><a href="https://www.workatastartup.com/">YC Work at a Startup</a></li><li><a href="https://news.ycombinator.com/item?id=25266287">Hacker News Thread: Who wants to be hired?</a></li><li>And any others that you can think of</li></ul>
+
+        <p>In these profiles include links to your resume and portfolio. Also make sure your employment history (including job titles and dates) is accurate because hiring managers and recruiters will use job boards' built in filters to check who's actively interviewing, who has x years of experience, etc.</p>
+      </section>
+
+      <section>
+        <h2>Part 2: Apply for Jobs</h2>
+        <p>Now that you've built an online presence, it's time to apply for jobs. <strong>Interviewing is a numbers game </strong>- the more places you apply to, the more chances you give yourself of landing an amazing job. Apply to companies you want to work for, but also apply to ones where you're not as interested. You might find that you end up liking them after meeting with the team and interviewing with them, and if nothing else at least you'll get some good interview practice out of it.</p>
+
+        <p>A huge part of being a good software engineer is being able to learn on the job. So if you have 50-60% of the skills listed on a job description then you are qualified to do that job. Some companies have basic requirements that they won't budge on, so you should have all of those, but that list is usually short. Apply for job titles even if they seem like they're a level above or a level below your experience, because once you get on the phone with the recruiter they can determine whether you're a good fit. </p>
+
+        <p>Definitely apply to the jobs that don't specify years of experience. Also, sometimes job descriptions can be outdated so apply if you're interested because you might be qualified. And finally, apply for multiple roles at each company; you can narrow your search later if multiple teams from the same company are interested.</p>
+
+        <p><strong>Remember that if your application does not get accepted, then you will be no worse off than you are now.</strong> Let the company tell you if they're not interested, don't make that decision for them. So don't be shy, apply!</p>
+
+        <h3>Through Your Network</h3>
+        <p>Make a list of your family, friends, old colleagues and acquaintances who work in tech. You can also filter for 1st or 2nd degree connections on LinkedIn to find more people in your network. Then choose from one of the following options:</p>
+
+        <ul><li>If you haven't been in touch with them in a while, reach out to catch up or ask what it's like to work at their company.</li></ul>
+
+        <ul><li>If you don't know them personally (ie. they're a 2nd degree connection), send an email or a LinkedIn message to your 1st degree connection and ask for an introduction.</li></ul>
+
+        <ul><li>If they're a good friend then you can simply tell them that you're looking for a job and would love to learn more about their company.</li></ul>
+
+        <p>During the call or meeting over coffee, ask whether their company accepts employee referrals. Most companies do, and <strong>compensate the employee when the candidate they refer gets hired.</strong> So if they don't offer on their own, ask if they'd be willing to refer you.</p>
+
+        <p>When someone agrees to refer you, go through the company's website and make a list of the roles you like: at least 2, and up to a max of 4-5. Then send the following information to your contact to make things easy for them:</p>
+
+        <ul><li>Job titles along with links to those jobs on the company's website</li><li>A link to your resume in downloadable pdf format</li><li>A link to your portfolio</li><li>And your email</li></ul>
+
+        <p>You will get most of your interviews through this process. <strong>Every other option in this section is inferior when it comes to getting your resume in front of the relevant people at companies you want to work for.</strong></p>
+
+        <h3>Job Boards</h3>
+        <p>This is the next best way to get interviews, especially with startups. Since you've already created profiles on job boards and professional networks, it's now time to activate them. Job boards will let you specify that you're open to offers or actively interviewing, which will prompt companies and recruiters to reach out to you.</p>
+
+        <p>Once you're on the phone with the recruiter or hiring manager, you can discuss your interview timeline. Some companies will let you take a couple weeks or months to practice before you start the interview process with them, especially if they're hiring multiple people.</p>
+
+        <p><a href="https://triplebyte.com/" data-type="URL" data-id="https://triplebyte.com/">Triplebyte</a> is a kind of job board where you take a quiz and if you pass, you get to skip the technical phone screen with a company. They have some good companies on their portfolio and if you're up for it, taking their quiz might be a good option. But remember that you'll still have to do the onsite/final round interview which is longer and harder than the phone screen anyway.</p>
+
+        <h3>Conferences, Networking Events and Career Fairs</h3>
+        <p>Attend as many conferences, networking events and career fairs as you can. Before you go, make 50-100 copies of your resume and a list of the companies you're interested in talking to, and write and memorize a short script about your background.</p>
+
+        <p>At the event, start by talking to a few companies that aren't among your top choices for practice, then talk to the ones you're really excited about. Hand them your resume and give a brief overview of your background, and answer any questions the recruiter has. Do this for as many companies as you can, or for as long as the conference lasts. </p>
+
+        <p>If you meet with any recruiters that show interest, connect with them on LinkedIn and follow up with an email asking about next steps. Some conferences conduct interviews on site so if you do a good job networking, you might get an interview for the next day. </p>
+
+        <h3>Through Recruiters</h3>
+        <p>If you've interviewed with a company in the past and still have the recruiter's contact details, send them an email saying you're looking for a job and include links to your resume, portfolio and LinkedIn.</p>
+
+        <p>This option works well if 6-12 months have passed since you last interviewed with the company.</p>
+
+        <h3>Last Resort: Apply on the Company's Website</h3>
+        <p>Apply to jobs on a company's website. This will almost never result in an interview at larger companies because their quotas get filled through the referral pipeline. But it might work with startups, especially if you can write a compelling cover letter and have a strong portfolio.</p>
+      </section>
+
+      <section>
+        <h2>Part 3: The Interviews</h2>
+        <h3>The Interview Process</h3>
+
+        <p>The structure of the interview process at each company is different, but most companies' processes include some or all of the following types of interviews:</p>
+
+        <ul><li>Recruiter screen</li><li>Call with Hiring Manager / Team Matching Process</li><li>Technical Interviews</li><li>System Design Interview</li><li>Behavioral Interview</li></ul>
+
+        <p>Here are sample interview processes for companies of different sizes:</p>
+
+        <h4>Big Company</h4>
+        <p>Recruiter Screen → Technical Phone Screen → Onsite Interviews: 2-3 Technical Interviews, 1 System Design Interview, 1 Behavioral Interview → Team Matching Process</p>
+
+        <h4>Medium Sized Company</h4>
+        <p>Recruiter Screen → Call with Hiring Manager → Technical Take Home Exercise → Onsite Interviews: 1-2 Technical Interviews, 1 System Design Interview, 1 Behavioral Interview</p>
+
+        <h4>Small Company</h4>
+        <p>Call with Hiring Manager → Technical Phone Screen → Onsite Interviews: 3-4 Technical Interviews, 1 Behavioral Interview</p>
+
+        <h3>Recruiter Screen</h3>
+        <p>Almost universally, step one of the interview process is a phone screen with the recruiter. This call usually lasts 20 - 30 mins. and is divided into 3 parts:</p>
+
+        <h4><strong>Part 1: Tell me about your background</strong></h4>
+        <p>Most commonly, recruiters ask about your prior experience, what you're looking for in your next role and why you want to work for their company.</p>
+
+        <p>A good way to prepare for this question is to practice giving a 2 minute summary of your background as if you were describing it to a friend. You'll get better at it and sound more natural after you've done it a few times.</p>
+
+        <p>In my experience, this type of call at smaller companies includes some behavioral questions as well. Questions like: tell me about a challenging technical problem you worked on in the last year, what are your strengths and weaknesses, etc. To answer these questions well, it helps if you've already practiced what you're going to say. You can find a list of sample questions in the section on <em>Behavioral Interviews</em> below.</p>
+
+        <p>Sometimes the recruiter will ask what salary range you're looking for. I recommend that you do not give them a number because it will compromise your negotiating position later in the process. Be polite but firm, and deflect the question by saying things like "First I'd like to go through the interview process and determine if the company and I are a mutual fit. So I prefer to wait until later to discuss this." If they absolutely won't take no for an answer, you can give them a total compensation number. We'll discuss this in more depth in the section on <em>Salary Negotiation</em> later.</p>
+
+        <h4><strong>Part 2: Let me tell you about the company, team and role</strong></h4>
+        <p>Now it's the recruiter's turn to talk. They'll tell you about the company, the team and the role you're interviewing for. I recommend taking notes as you're listening.</p>
+
+        <h4><strong>Part 3: Do you have any questions?</strong></h4>
+        <p>When they're done they will ask if you have any questions. Now is a good time to clarify if anything was unclear, ask about the next steps in the interview process and ask if they can give you any advice or written material to help you prepare for the interviews. You can also send them an email to ask any questions that you think of later.</p>
+
+        <p>The person you talk to on this call will usually be your main point of contact throughout the interview process. They're there to ensure that your candidacy results in a successful hire.<strong> They will be directly compensated if you get the job. </strong>So feel comfortable using them as a resource whenever you need help.</p>
+
+        <h3>Call with Hiring Manager / Team Matching Process</h3>
+        <p>This call happens either at the beginning or at the end of the interview process, depending on the company you're interviewing for. Sometimes it replaces the <em>Recruiter Screen</em> at a startup.</p>
+
+        <p>It's not designed to be difficult or deeply technical, but to assess whether you have the necessary experience from an engineer / engineering manager's perspective. Think of it like a technical version of the Recruiter Screen.</p>
+
+        <p>It usually takes 20 - 30 mins. and consists of 2 parts:</p>
+
+        <h4><strong>Part 1: Questions they ask you</strong></h4>
+        <ul><li>Tell me about your background - and follow up questions about anything you said</li><li>Details about anything listed on your resume or portfolio</li><li>If this call is part of the team matching process, they might ask what types of projects or areas of the stack you're interested in </li></ul>
+
+        <h4><strong>Part 2: Questions you can ask them</strong></h4>
+
+        <p>You can ask them any questions from the <em>Questions for the Employer</em> section below.</p>
+
+        <h3>Technical Interviews</h3>
+        <p>Technical interviews are the most frequent and most important type of interview you'll encounter during the job search process. Usually there are multiple technical rounds, often conducted by different people, but the way to prepare for all the technical interviews is the same.</p>
+
+        <h4>Types of Interviews</h4>
+        <ul><li>Phone Screen 45-60 mins.</li><li>Online Assessment 1-2 hrs.</li><li>Take Home Exercise 2-4 hrs.</li><li>Data Structure and Algorithm Interview 45-60 mins.</li><li>Job Specific Interview 45-60 mins.</li></ul>
+
+        <p>A phone screen, online assessment or take home exercise is usually the first technical step in the interview process, and data structure and algorithm interviews and job specific interviews usually happen during the onsite portion of the process.</p>
+
+        <h4>Structure of the Interviews</h4>
+        <p>The online assessment or take home exercise can be completed independently at home. The phone screen, data structure and algorithm interview, and the job specific interview all have a similar 3-part structure:</p>
+
+        <h4><strong>Part 1: 5 mins. This part varies.</strong></h4>
+        <ul><li>Sometimes interviewers ask about your background, or about something specific on your resume, or a behavioral question, or they'll simply ask how you're doing and if this is still a good time to do the interview. The goal here is to get you talking and put you at ease before you solve a technical problem in front of a stranger.</li></ul>
+
+        <ul><li>If they ask about your background or about your resume then you can say the same thing you practiced for the <em>Recruiter Screen</em>. If they ask a behavioral question, then you can prepare for it as described in the section on <em>Behavioral Interviews</em> below.</li></ul>
+
+        <h4><strong>Part 2: 35-40 mins. Solve the technical problem.</strong></h4>
+
+        <p>The next section is all about how to prepare for this part of the interview.</p>
+
+        <h4><strong>Part 3: 5 mins. Ask questions.</strong></h4>
+        <p>You can ask the interviewer any questions you have. You can prepare for this by reading the section titled <em>Questions for the Employer</em> below.</p>
+
+        <h4>How to Prepare</h4>
+        <p>The way to prepare for all these types of interviews is the same. Especially in the beginning, when you're practicing without knowing which companies you'll interview with or what their process will look like exactly, there is a common strategy you can use to get ready. The idea is to train harder than you're going to need to perform well in the interview so that nerves on interview day do not affect your chances of getting the job.</p>
+
+        <h4><strong>Step 1: Pick an interpreted language</strong></h4>
+        <p>Familiarize yourself with its standard library and built in functions. Most companies will let you interview in any language you choose. Here are some good options:</p>
+
+        <ul><li>Python 3</li><li>JavaScript</li><li>TypeScript</li><li>Ruby</li><li>PHP</li></ul>
+
+        <h4><strong>Step 2: Create an account on <a href="https://leetcode.com/">LeetCode</a> and buy a copy of <a href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850">Cracking the Coding Interview</a> (CtCI)</strong></h4>
+        <h4><strong>Step 3: Get on a consistent schedule. Do a minimum of 2 practice questions every day</strong></h4>
+
+        <p>Read the text of a chapter in CtCI and work through problems on LeetCode. Start with the easy and medium problems. If you can't solve a problem in an hour, then look at the solution. Take the time to fully understand it before moving on. </p>
+
+        <p>Keep notes about: </p>
+
+        <ul><li>strategies to solve common problems (BFS &amp; DFS graph traversal, etc.)</li><li>optimizations for technical questions (CtCI pgs. 67 - 72)</li><li>and time and space complexity</li></ul>
+
+        <p>I recommend writing these notes down by hand so you can reference them easily during your practice sessions and interviews.</p>
+
+        <p>Usually big companies will not ask you to execute code in tech interviews, but some startups will. Regardless of the type of company you're interviewing for, it's a good idea run your code during practice. It will help you see the errors you make, and you can keep a list of them in your notes to remind yourself to avoid them in the future. </p>
+
+        <p><strong>Take breaks regularly; this is a marathon.</strong> You will need to sustain a difficult and consistent practice schedule for an extended period of time to build the skills necessary to pass these interviews. So pace yourself so you don't burn out before the end.</p>
+
+        <h4><strong>Step 4: Start timing yourself and do practice interviews with friends </strong></h4>
+        <p>Once you're consistently able to solve questions of medium difficulty on LeetCode, you can start timing yourself. Set a timer for 30 mins. and read the question after the timer has begun. When the timer runs out, stop and reflect on how you did. If you weren't able to finish the question then you can continue working on it, but only after stopping and acknowledging how far you made it. This will help you get a sense of how you need to adjust your pace for next time. </p>
+
+        <p>Alternatively, you can practice with a friend acting as the interviewer. In this case, set a timer for 40 mins. because it takes longer to get through a question if you're talking at the same time. Practice explaining your solution as you're writing it; discuss tradeoffs between different approaches and talk about the time and space complexity of your solution.</p>
+
+        <h4><strong>Step 5: Interview with a few companies that aren't among your top choices</strong></h4>
+        <p>To get the nerves out. These companies' processes don't even have to be the same as any other companies you're interviewing for. But just getting used to solving difficult, timed technical problems in front of a stranger is a feeling you'll need to get used to if you want to do well in the interviews you actually care about. </p>
+
+        <p>Also, this ability atrophies over time. So this step is necessary even if you've interviewed in the past for internships or previous jobs. If this is your first round of interviews in 6 months or a year, then consider this step a requirement for optimal performance.</p>
+
+        <h4><strong>Step 6: Have an interview day ritual to get you into the mindset </strong></h4>
+        <p>On the day of your interview, do 1-2 warmup questions before your interview begins. Choose questions at a difficulty level that you know you can nail in 30 mins. This will get your confidence up and prime your brain to start thinking about data structure &amp; algorithm problems. Take 3 deep breaths to calm yourself right before the interview begins.</p>
+
+        <h4><strong>Step 7: Perform well during the interview</strong></h4>
+        <p>0. Believe in yourself, you've got this :)</p>
+
+        <p>1. Take 30 seconds to think about the question. It's ok to say that this is what you're doing.</p>
+
+        <p>2. Ask for clarification of the problem. Things like, which datatype can the input be, how do we want to handle the edge cases (infinite loops, empty arrays, etc), can this input fit in memory, are the inputs well-formed, etc.</p>
+
+        <p>3. Think out loud about how you would approach this problem. If you can't see the best approach right away, start with the brute force solution. Then talk about how you might optimize different parts of it - using the techniques in CtCI (pages 67 - 72).</p>
+
+        <p>4. Once you settle on a solution you'd like to implement, explain it fully. It's ok to write notes as comments while you're explaining it. This is a really good reference which helps a lot when you get down to coding.</p>
+
+        <p>5. Then, write code. Talk about what you're writing.</p>
+
+        <p>6. When you're done with the implementation, work through an example. Walk through some edge cases and discuss the time and space complexity. </p>
+
+        <p>Some things to keep in mind:</p>
+
+        <ul><li>Don't assume that the question only has one part. Sometimes interviewers won't tell you about part two until after you've finished solving part one. So work through these steps as fast as you can while still getting it right.</li></ul>
+
+        <ul><li>If they say you can use reference docs that's great, but as far as possible try not to. You will waste precious time looking things up.</li></ul>
+
+        <h4><strong>Step 8: Relax and reset after each interview</strong></h4>
+        <p>You did the best you could with the level of preparation you had at the time. Now take a break and reward yourself with a day of rest, a good meal or anything else you like to do to relax. Then get back to your regular routine of practicing. </p>
+
+        <p>To sustain this level of work for a few months you're going to need a lot of energy, so don't drain yourself by spiraling and thinking about all the things you could have done differently or better in one interview. By following the steps listed here you're focussing on the right things, now you just need to keep doing them for a while and you'll get the job you want.</p>
+
+        <h3>System Design Interview</h3>
+        <p>System Design interviews are almost never part of the first round, so I recommend that you do not spend any time preparing for this type of interview until you make it to the onsite interview stage with a company.</p>
+
+        <p>This interview is usually 45 - 60 mins long. The interviewer will give you a brief prompt asking you to design the architecture for a system. <strong>Your task is to ask clarifying questions and talk through all the pieces of the technical architecture.</strong></p>
+
+        <h4>Structure of the Interview</h4>
+        <h4><strong>Part 1: Gathering Information</strong></h4>
+
+        <p>Start by asking questions. Before talking about the architecture at all, you need to get as much information as you can about the system you're designing. There are three main areas you want to focus on:</p>
+
+        <ul><li>What features do you want to support?<br>Ask lots of follow up questions. The goal here is to understand the feature requests in enough detail that you can use it to come up with technology that supports those features.</li></ul>
+
+        <ul><li>Who's going to be using this?<br>This will give you more information about what you want the user experience to be like. For more technical users you want to make the UX more flexible and configurable. While for less technical users you would want a more rigid UI design, with lots of technical details automated away.</li></ul>
+
+        <ul><li>What scale do you need to handle?<br>This is going to inform the design of the distributed architecture with respect to how much information you store, how you access it and how you cache it.</li></ul>
+
+        <h4><strong>Part 2: Making Architectural Decisions</strong></h4>
+        <p>These are the things the interviewers are looking for, when they evaluate the system architecture that you create:</p>
+
+        <ul><li>What components are used to build the system -- web servers, load balancer, cache layer, etc.?</li><li>What is the database schema?</li><li>How does each piece of the system communicate? What is the network protocol?</li><li>What data is passed around between the layers (database, server, client)?</li><li>What languages would you use for each layer?</li><li>What software is running on each piece of the system?</li><li>Is the system secure?</li><li>How well does it handle scale - large number of reads, writes, users, etc.?</li><li>What's the performance and availability of the system?</li></ul>
+
+        <h4>How to Prepare</h4>
+        <p>Find practice questions on LeetCode. Set a timer for an hour and talk through the architecture of the system. Take notes about the architectural decisions you make during your practice sessions. <br><br>The following resources will help:</p>
+
+        <ul><li><a href="https://github.com/donnemartin/system-design-primer/blob/master/README.md" data-type="URL" data-id="https://github.com/donnemartin/system-design-primer/blob/master/README.md">This open source Github repo</a> explains the different parts of a system and the decisions you can make based on different feature requirements.</li></ul>
+
+        <ul><li>Practice drawing architecture diagrams using <a href="https://jamboard.google.com/" data-type="URL" data-id="https://jamboard.google.com/">Jamboard</a>, on paper or on a whiteboard. <a href="https://terrastruct.com/blog/10-tips-diagrams-system-design-interview/">This article</a> is a really good resource on how to design your diagrams for system design interviews. </li></ul>
+
+        <ul><li>Watch videos of people answering a system design interview question. Here are two good ones that you can start with: <a href="https://youtu.be/k-E4YdEs8qM">Twitter API</a> and <a href="https://www.youtube.com/watch?v=uzeJb7ZjoQ4">Facebook Messenger</a>. This channel has other good videos too. </li></ul>
+
+        <h3>Behavioral / Culture Fit Interview</h3>
+        <p>Behavioral questions can be asked at any step in the interview process: by the recruiter or hiring manager, or by any of your technical interviewers. In addition to this, most companies have a separate interview dedicated to assessing whether you are a good fit for that company's culture. The types of questions asked during this interview might have different names at different companies: culture fit, behavioral, topgrading, leadership principle matching, etc.</p>
+
+        <p>Think of this interview like a free form conversation. You can lead it where you want it to go. If you include details in your answers be prepared to answer follow up about them. Answer as honestly as you can. If you join this company then you're going to be working with these people for a long time so it's better that they get to know the real you and hire you based on that information.</p>
+
+        <h4>STAR Method - Situation Task Action Result</h4>
+        <p>Use the STAR method to frame every single answer you give in this type of interview. When you practice, keep notes about your answers to the practice questions in STAR format.</p>
+
+        <p><strong>Situation</strong>: Describe the context. Set the scene. Who was there? Why were you involved? What were the stakes?</p>
+
+        <p><strong>Task</strong>: Give a high-level overview of the project/task. What was the goal? What did the team have to do?</p>
+
+        <p><strong>Action:</strong> Talk about specific things you did. What was your part in the project? What were you in charge of? What problems did you run into? Which tools, technologies, languages did you use?</p>
+
+        <p><strong>Result</strong>: Present the result and your take on it. What was the outcome? What did you learn?</p>
+
+        <h4>Practice Questions</h4>
+        <p>In your answers, give clear and concise descriptions while focussing on how you collaborate with other people on the team, your communication style, and the ownership and impact you had for the projects you worked on. The interviewers will evaluate how you talk about uncomfortable topics, whether you deflect blame, whether you understand how your work fits into the company's goals and how you have grown over the years.</p>
+
+        <p>Here are some basic questions you can use to practice:</p>
+
+        <ul><li>Why do you want to work here?</li><li>Walk through your resume and describe your past experience. What were you hired to do? What were some high points, and some low points? Why did you leave?</li><li>Tell me about a collaborative project that didn't work out. What did you learn? What would a coworker say about your performance? What are things you'd like to improve?</li><li>Tell me about a time when you received a difficult piece of feedback. What did you do about it? How did you apply the improvements in the future?</li><li>How would your manager/colleagues describe you?</li><li>Tell me about a time you failed.</li><li>Tell me about a difficult coworker that you had to work with.</li></ul>
+
+        <p>And use your favorite search engine to find "behavioral interview questions for software engineers". Here are some good lists to get you started: <a href="https://devskiller.com/45-behavioral-questions-to-use-during-non-technical-interview-with-developers/" data-type="URL" data-id="https://devskiller.com/45-behavioral-questions-to-use-during-non-technical-interview-with-developers/">list 1</a> and <a href="https://www.pathrise.com/guides/45-behavioral-interview-questions/" data-type="URL" data-id="https://www.pathrise.com/guides/45-behavioral-interview-questions/">list 2</a>.</p>
+
+        <h3>Questions for the Employer</h3>
+        <p>At the end of each interview, you will get a chance to ask your employer any questions you might have. I think there's a lot of valuable information you can get from this part of the conversation, so it's important to prepare a good list of questions in advance.</p>
+
+        <p>Part of job search process is ensuring that there is a good mutual fit. It might be easy to think that since you're the one being interviewed that you're supposed to live up to company's standards and not vice versa. But you'll be spending at least a few years of your life in this environment with these people so it's better to make sure that you'll like working with them too.</p>
+
+        <p>Asking good questions is also a way to separate yourself from the other candidates and stand out as someone who's a little more interesting and thoughtful. The best advice I ever received was that <strong>in every interview where you get to ask questions, ask at least one question where if the answer was not to your liking then you wouldn't take the job.</strong> It might feel uncomfortable to be judging the company in this way but a bad job can negatively affect your mental and physical wellbeing for a long time, even after you leave.</p>
+
+        <p>So take some time and write down a list of 8-10 things that you care about, out of which 2-3 would be deal breakers if the company doesn't do them. You can use <a href="https://www.keyvalues.com/" data-type="URL" data-id="https://www.keyvalues.com/">Key Values</a> to help you when you're making this list. It's a website that lists and categorizes the benefits and values embodied by different companies.</p>
+
+        <p>With that in mind, following is the list of questions that I use and <a href="https://firstround.com/review/the-40-best-questions-to-ask-in-an-interview-how-to-go-deeper-than-whats-the-culture-like/" data-type="URL" data-id="https://firstround.com/review/the-40-best-questions-to-ask-in-an-interview-how-to-go-deeper-than-whats-the-culture-like/">this link</a> will take you to a wonderful article where you'll find many more questions to choose from.</p>
+
+        <p>Company growth and priorities:</p>
+
+        <ul><li>What are your thoughts on overall direction of the company?</li><li>What are the management’s priorities for the next year or two?</li></ul>
+
+        <p>Culture and values:</p>
+
+        <ul><li>When you’ve done your best work here, what about the culture has enabled you to do that?</li><li>In what ways has this company impacted your growth as an engineer and team member?</li></ul>
+
+        <p>Employee experience:</p>
+
+        <ul><li>What did you learn about the company after you started working here, that you didn’t know before?</li><li>Can you describe a coworker who you think has been successful at the company and share what you believe enabled them to be successful?</li><li>Can you give me an example of a time when you felt you had autonomy in your role within the company?</li></ul>
+
+        <p>Manager compatibility:</p>
+
+        <ul><li>What’s the hardest piece of feedback you’ve received as a manager, and the hardest piece of feedback you’ve given?</li><li>How would your team describe you?</li><li>What relative weight do you put on how people conduct their work, vs the results of the work they produce?</li></ul>
+
+        <p>Role and responsibilities:</p>
+
+        <ul><li>What will separate someone who is good at this job from someone who’s really stellar?</li><li>How do you see this position evolving as the company grows?</li></ul>
+
+        <p>Team impact and dynamics:</p>
+
+        <ul><li>Who owns the goals and how are decisions made about what work needs to be done?</li><li>What influence do individual contributors have towards the goals set for the team?</li></ul>
+
+        <p>Communication within the company:</p>
+
+        <ul><li>How much does management communicate about the direction of the company?</li><li>How often do they solicit feedback from the employees about what it’s like to work here?</li><li>Can you give me an example of a time when you saw the company leadership act on this feedback?</li></ul>
+
+        <p>Software development:</p>
+
+        <ul><li>What’s the on-call schedule like?</li><li>Can you talk about the software development process for a project from inception to deployment?</li></ul>
+
+        <p>Diversity, equality and inclusion:</p>
+
+        <ul><li>In your opinion what impact does hiring diverse candidates have on the team?</li></ul>
+      </section>
+
+      <section>
+        <h2>Part 4: Handling Rejection</h2>
+        <p>In all likelihood you will have to deal with rejection at least once before before you get to the salary negotiation stage. This is an expected part of the interview process and being prepared to deal with it will help you when it happens for real.</p>
+
+        <h3>Shaking off Bad Interviews</h3>
+        <p>Sometimes you will meet interviewers who might not like it when you're unable to solve the question and you might start to hear the disapproval/disappointment in their tone or see it on their face. If this happens and you notice yourself getting flustered during the interview, remember that no matter what it will be over in less than an hour. Until then, continue to be respectful and work on the problem the best you can.</p>
+
+        <p>Remember this: just because you had a bad interview doesn't mean you won't get a job or you can't improve in the future.</p>
+
+        <p>One of the things good interviewers do is respond in the same way no matter how you're performing. If they are showing their disapproval then they are not doing their job well. <strong>You are allowed to have a bad interview or a bad day and not be made to feel inadequate. You get points for showing up and for trying, and while you may not get that job, you deserve to be treated with kindness. </strong>You are smart enough and you will get a good job provided you put in the work. It may not work out every time, but it will work out.</p>
+
+        <h3>Asking for Feedback</h3>
+        <p>Sometimes you won't get the job you want. The interviewer will be nice, and you'll have prepared as much as you could, but you'll still hear a no from the company. That's ok. Most companies will let you try again in a few months. But it's helpful to ask for feedback. They might tell you something useful that you can work on later.</p>
+
+        <p>Most recruiters will also ask if you have any feedback about the interview process. I recommend being open about your thoughts on the interview, especially if you plan on interviewing with this company down the road because an improved interview process might mean that you get the job next time.</p>
+
+        <h3>Getting Ghosted</h3>
+        <p>Unfortunately this happens sometimes. If it's a company you really want to work for, then send a couple follow up emails. But if you don't hear back within a reasonable amount of time then maybe this isn't a company you would've liked working at anyway. The best thing to do in this is situation is move on and focus on the rest of your interview process.</p>
+      </section>
+
+      <section>
+        <h2>Part 5: Salary Negotiation</h2>
+        <p>Congratulations, you got the job! But the interview process is not over yet. There's still one step left. </p>
+
+        <p>Contrary to what you might think, the salary negotiation call will only take about 5 minutes. And with a little preparation you can negotiate yourself into a better position, even if you have never done this before. Besides reading what I've written here, I highly recommend <a href="https://candor.co/guides/salary-negotiation">this article</a> as a complementary resource for understanding tech compensation and learning about salary negotiation.</p>
+
+        <h3>An Ongoing Process</h3>
+        <p><strong>The salary negotiation process starts before you even realize it.</strong> On your very first call with the company, which is usually the <em>Recruiter Screen</em>, you might get asked what salary you expect. I recommend that you do not give them a number at this stage. Asking this question is a way to get you to compromise your negotiating position later in the process. You have no leverage at this time since you haven't even started interviewing, so giving out this information now might mean that you end up with a lower compensation packet later. <br><br>To avoid answering their questions you can say: "I'm more concerned with figuring out whether we're a mutual fit for each other first. If that's the case then I'm sure we'll have time to discuss the details of my compensation later." <br><br>If the person you're talking to won't take no for an answer, or won't let you sidestep the question, then you can give them a total compensation number - which is a combination of your base salary, equity and bonus. But try your best to persuade them to postpone this conversation until after you've gotten the offer.<br><br>Also, each time you move forward in the process, the recruiter will ask you how your interviews are progressing with other companies. I recommend keeping your answers positive and light - if you feel like you want to give details, just talk about the parts that are going well. Do not mention any company names, but you can say how many companies you're interviewing with. </p>
+
+        <h3>The Job Offer</h3>
+        <p>Usually the recruiter will tell you soon after the final round of interviews if you got the job. This will likely be a short congratulatory call and contain no details about the offer itself.</p>
+
+        <p>They might tell you that the company is working on an offer packet and that they'll get back to you when it's ready. In the meantime, they might ask how the rest of your interviews are going. No matter how happy you are to have received this news, control the urge to give out any details about how the rest of your interviews are going.</p>
+
+        <p><strong>In any negotiation information is power.</strong> And since you've gotten the offer, the balance of power has shifted a lot in your favor. You now know that the company wants to hire you. And they don't yet know how likely you are to accept their offer. So the less information you reveal at this stage, the more leverage you will have in the salary negotiation later.</p>
+
+        <p>The recruiter will set up a time to go over the details of the offer with you. During the call it's important that you stay calm and not sound too eager or excited. Take notes as you're listening.</p>
+
+        <p>When the recruiter is done talking, thank them and say that you'd like to take some time to review the details of the offer and in the meantime, you'd like to ask a few questions. The goal of this step is to gather as much information as you can, then give yourself some space to think through it all.</p>
+
+        <p>Here are some good questions you can ask:</p>
+
+        <ul><li>What level is the job offer?</li><li>What are the requirements for this level vs. the level above it? I’d love to understand the levels a bit more, what distinguishes a SWE 3 over a SWE 2?</li><li>What is the salary band for total compensation for this level?</li><li>About the equity - can you tell me how many shares that is? And what percentage of the company does the equity represent?</li><li>What is the vesting schedule? Is there a 1 year cliff? And the equity package attached to this offer, is that yearly or over 4 years?</li><li>Was there any other feedback about my interviews? I’d love to hear what the team thought about my performance.</li></ul>
+
+        <p>Once you're done asking questions, thank them say that you'll get back to them soon.</p>
+
+        <h3>The Negotiation</h3>
+        <p>This call is going to be shorter than you think. It'll take 5-7 mins at most. <strong>Before you get on the phone, write a script</strong> for what you're going to say. This is going to be the best tool you have when you’re negotiating with someone who’s better at it than you are, which the recruiter is likely to be, since this is a large part of their job. The less you have to improvise on the call, the better. </p>
+
+        <ol><li>Start by asking questions to show that you're really interested in the job.<ul><li>What is the start date attached to this offer?</li><li>Ask for more details about the team or the job<br><br></li></ul></li><li>Then say, "I had a chance to go over the details of the offer, and I think based on the value that I would be bringing to the team, I’m worth more."<br><br></li><li>Next, say 2-3 sentences about why you're worth more. There are 2 levers you can use to make your case: the experience and skills you bring to the table, and any competing offers you might have. Then <strong>ask for a 15% increase in total compensation.</strong> <br><br>A 15% increase may seem like a lot but remember that they just spent thousands of dollars trying to find and interview you. If you reject this offer then it's going to take them a lot more money and time to find another qualified candidate. It's better for everyone involved if you accept this job. And besides, there's no harm in asking. If they say no then you'll be no worse off than you are now. <br><br>You can use <a href="https://www.levels.fyi/" data-type="URL" data-id="https://www.levels.fyi/">levels.fyi</a> as a guide to determine where your compensation falls on the salary band for your level.<br><br></li><li>Then, it's the recruiter’s turn to talk. There are a few possible responses they can give:<br><ul><li><em>Recruiter:</em> We can't increase your compensation, this is the best we can do.<br><em>Candidate:</em> Hmm I see, well if you’re not able to be flexible on the total comp then I’m more inclined to continue the process with Company X and Company Y and I won't be able to commit to anything now.<br><br></li><li><em>Recruiter:</em> There are a lot of other benefits in addition to the cash compensation.<br><em>Candidate:</em> Yes I’ve taken that into consideration but based on all the reasons I outlined, the total compensation number I quoted seems fair.<br><br></li><li><em>Recruiter:</em> Ok that’s pretty high, are you willing to go any lower that?<br><em>Candidate:</em> I think based on the value I would bring to the team this seems fair. I also want to make it clear that this company is my top choice and if we are able to get to this number then I’m ready to sign the offer immediately.<br><br></li><li><em>Recruiter:</em> This is too high compared to what other people at this level are making.<br><em>Candidate:</em> I think based on the value I would bring to the team this seems fair. I also want to make it clear that this company is my top choice and if you are able to get me to this number then I’m ready to sign the offer immediately.<br><br></li><li><em>Recruiter:</em> Hmm this is going to be a pretty tough sell.<br><em>Candidate:</em> Ok I think I have a good case so let’s talk about that. Let me give you some specifics that might help:<br>Then talk about 1-3 experiences from your resume that showcase specific skills or mention again that you have competing offers.<br><br></li><li><em>Recruiter:</em> Ok thanks for making it clear, I’ll see what I can do.<br><em>Candidate:</em> Ok thank you again for the offer. I’m really excited about the working with this team. Please let me know when you have an update, I’m really looking forward to making this happen.<br><br></li></ul></li><li>Be firm and specific with your ask. During the conversation, choose to be collaborative and not combative. <br><br>Remember that you are not negotiating <em>against</em> the recruiter. The recruiter is on your side because they only get commission if you take the job.<br><br>Also, keep in mind that they are not the one making any decisions, especially at a big company. Their job is simply to present a packet to the hiring committee who will decide based on your interview performance, competing offers and the case you make, whether you get a salary bump or not. So the best thing you can do is empower the recruiter with the information they need to present a good packet on your behalf.<br></li></ol>
+
+        <h3>The Outcome</h3>
+        <h4>Accepting / Declining</h4>
+
+        <p>After the negotiation, give the recruiter some time to get back to you. While you're waiting, decide on a total compensation number at which you will accept the job offer. The most likely outcome is that the recruiter will come back to you with a counteroffer that's lower than what you asked for, and you need to be prepared with a decision before that happens. </p>
+
+        <p>If you're ready to sign the offer, then you can verbally accept the offer when the recruiter gets back to you. </p>
+
+        <p>If you want to continue interviewing with other companies, then let the recruiter know that you can't commit right now. Repeat the negotiation process with each company that offers you a job, till you get an offer you're happy to accept. </p>
+
+        <h4>Reneging</h4>
+        <p>Reneging on an offer that you accepted isn't ideal, but if you feel strongly that that's something you should do then go ahead. Just keep in mind that you might not be able to work for the company that you reneged with in the future. So make this decision carefully, but people do do it so it's not unheard of, just frowned upon.</p>
+      </section>
+
+      <section>
+        <h2>The End</h2>
+        <p>I hope you find the job you're looking for and I'm confident that if you follow this process then with a little luck you'll get where you want to go!</p>
+      </section>
+
+      <section>
+        <hr class="wp-block-separator"/>
+
+        <p>If you found this useful, give us some love on social media :)</p>
+      </section>
+
+
+    </article>
+  </body>
+</html>
